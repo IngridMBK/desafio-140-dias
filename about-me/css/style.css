@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(200, 252, 200);
+  font-family: Arial, sans-serif;
+}
+
+#main-title {
+  color: darkblue;
+  font-size: 40px;
+}
+
+p {
+  color: rgb(38, 0, 100);
+  font-size: 15px;
+}
+
+.subtitle {
+  color: purple;
+  font-size: 21px;
+}
+
+img {
+  width: 250px;
+}
+
+a {
+  color: darkred;
+}
