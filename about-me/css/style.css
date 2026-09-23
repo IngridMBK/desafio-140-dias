@@ -20,8 +20,23 @@ p {
 
 img {
   width: 250px;
+   border-radius: 40px;
 }
 
 a {
   color: darkred;
 }
+
+.box-test {
+  padding: 20px;
+  border: 2px solid darkblue;
+  margin: 30px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
