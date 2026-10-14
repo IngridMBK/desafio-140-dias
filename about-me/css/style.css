@@ -19,8 +19,16 @@ p {
 }
 
 img {
-  width: 250px;
+  width: 50%;
+  max-width: 250px;
+  height: auto;
   border-radius: 40px;
+}
+
+@media (max-width: 600px) {
+  img {
+    max-width: 180px;
+  }
 }
 
 a {
@@ -34,7 +42,7 @@ a {
 }
 
 * {
-  box-sizing: border-box;s
+  box-sizing: border-box;
 }
 
 .flex-test {
@@ -55,4 +63,11 @@ ul {
   list-style: none; /* remove os marcadores da lista */
   justify-content: center;
   padding: 0px; /* remove o padding padrão da lista */
+}
+
+@media (max-width: 600px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
 }
