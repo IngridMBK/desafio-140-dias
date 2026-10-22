@@ -8,6 +8,12 @@ body {
   font-size: 40px;
 }
 
+@media (max-width: 600px) {
+  #main-title {
+    font-size: 28px;
+  }
+}
+
 p {
   color: rgb(38, 0, 100);
   font-size: 15px;
@@ -36,6 +42,7 @@ a {
 }
 
 .box-test {
+  width: calc(100% - 60px);
   padding: 20px;
   border: 2px solid darkblue;
   margin: 30px;
@@ -44,18 +51,6 @@ a {
 * {
   box-sizing: border-box;
 }
-
-.flex-test {
-  display: flex; /* ativa o Flexbox */
-  flex-direction: row; /* direção principal */
-  justify-content: center; /* organiza no eixo principal */
-  align-items: center; /* organiza no eixo transversal */
-  height: 300px;
-  border: 2px solid black;
-  gap: 50px; /* espaço entre os itens */
-  flex-wrap: wrap;
-}
-/* justify-content: trabalha no eixo principal -> horizontal ou vertical / row ou column */
 
 ul {
   display: flex;
